@@ -12,8 +12,23 @@
 
 /* - Mobile: 375px
 - Desktop: 1440px */
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     font-size: 32px;
     font-family: 'Poppins', sans-serif;
+    background: var(--LightGrey);
+    height: 100vh;
+    
+}
+main{
+    background: var(--White);
+    margin: 0 auto;
+}
+
+.input{
+    display: flex;
 }
